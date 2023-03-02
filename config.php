@@ -4,8 +4,6 @@ $today = (new DateTime('NOW', new DateTimeZone('Asia/Kuala_Lumpur')))->format('Y
 $status = "local";
 
 if($status == "live"){
-//	$server_name="ftp.webtwinkles.com";
-
 	$server_name="localhost";
 	$server_username="";
 	$server_password="";
